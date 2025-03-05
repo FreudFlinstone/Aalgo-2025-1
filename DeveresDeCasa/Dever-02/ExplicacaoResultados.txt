@@ -1,0 +1,10 @@
+Resultados:
+
+Para n = 10, o tempo de execução foi aproximadamente 5.25 microsegundos.
+Para n = 100, o tempo de execução foi aproximadamente 25.5 microsegundos.
+Para n = 500, o tempo de execução foi aproximadamente 1.1 milissegundos.
+Para n = 1000, o tempo de execução foi aproximadamente 2.84 milissegundos.
+
+Explicação:
+
+O tempo de execução do algoritmo cresce conforme o valor de `n` aumenta, devido ao aumento no número de chamadas recursivas. Para valores menores de `n`, o tempo é muito baixo (microsegundos), mas à medida que `n` cresce, o tempo aumenta (milissegundos). Para números grandes como 1000, o tempo de execução é mais perceptível, mostrando que o algoritmo recursivo não é muito eficiente para cálculos de fatorial com valores grandes de `n`.
